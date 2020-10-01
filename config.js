@@ -23,6 +23,10 @@ module.exports = {
       label: 'Projects',
       path: '/projects',
     },
+    {
+      label: 'CV',
+      path: '/cv.pdf'
+    }
   ],
   author: {
     name: 'Alejandro Durán',
