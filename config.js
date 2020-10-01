@@ -1,43 +1,43 @@
 'use strict';
 
 module.exports = {
-  url: 'https://lumen.netlify.com',
+  url: 'https://duranzno.netlify.app/',
   pathPrefix: '/',
-  title: 'Blog by John Doe',
-  subtitle: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
-  copyright: '© All rights reserved.',
-  disqusShortname: '',
+  title: 'Duranzno',
+  subtitle: 'Growing Developer.',
+  copyright: '',
+  disqusShortname: 'duranzno',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-73379983-2',
+  googleAnalyticsId: 'UA-179440917-1',
   useKatex: false,
   menu: [
     {
       label: 'Articles',
-      path: '/'
+      path: '/',
     },
     {
       label: 'About me',
-      path: '/pages/about'
+      path: '/pages/about',
     },
     {
-      label: 'Contact me',
-      path: '/pages/contacts'
-    }
+      label: 'Projects',
+      path: '/projects',
+    },
   ],
   author: {
-    name: 'John Doe',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    name: 'Alejandro Durán',
+    photo: 'https://res.cloudinary.com/duranzno-cloudinary/image/upload/v1601586364/blog/IMG_20200425_180229133_su1sym.jpg',
+    bio: 'Growing Developer.',
     contacts: {
-      email: '',
-      facebook: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
+      email: 'aledurax@gmail.com',
+      facebook: '',
+      telegram: 'duranzno',
+      twitter: 'duranzno_',
+      github: 'Duranzno',
       rss: '',
       vkontakte: '',
-      linkedin: '#',
-      instagram: '#',
+      linkedin: 'duranzno',
+      instagram: '',
       line: '',
       gitlab: '',
       weibo: '',
@@ -45,6 +45,7 @@ module.exports = {
       youtube: '',
       soundcloud: '',
       medium: '',
-    }
-  }
+      devto: 'duranzno_',
+    },
+  },
 };

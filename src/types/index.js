@@ -36,7 +36,7 @@ export type Node = {
     title: string,
     socialImage?: {
       publicURL: string
-    }
+    } | string
   },
   html: string,
   id: string

@@ -26,6 +26,7 @@ const useSiteMetadata = () => {
                 weibo
                 codepen
                 youtube
+                devto
                 soundcloud
                 medium
               }

@@ -8,17 +8,18 @@ locale: "en"
 
 # Uncomment to leverage Netlify CMS UI authoring flow
 # see: https://www.netlifycms.org/docs/configuration-options/#publish-mode
-publish_mode: editorial_workflow
-local_backend:
-  true
-  # url: http://localhost:8001
-  # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
-  # allowed_hosts: ["192.168.0.1"]
+# publish_mode: editorial_workflow
+# local_backend:
+#   true
+# url: http://localhost:8001
+# when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+# allowed_hosts: ["192.168.0.1"]
 media_library:
   name: cloudinary
   config:
     cloud_name: duranzno-cloudinary
     api_key: 944942752372546
+    output_filename_only: true
 
 collections:
   - name: "posts"
@@ -36,30 +37,6 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Social Image", name: "socialImage", widget: "image" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: true }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Tags", name: "tags", widget: "list" }
-
-  - name: "projects"
-    label: "Projects"
-    folder: "content/projects"
-    create: true
-    slug: "{{slug}}"
-    preview_path: "projects/{{fields.slug}}"
-    fields:
-      - {
-          label: "Template",
-          name: "template",
-          widget: "hidden",
-          default: "project",
-        }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Social Image", name: "socialImage", widget: "image" }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Description", name: "description", widget: "text" }
@@ -83,4 +60,10 @@ collections:
       - { label: "Slug", name: "slug", widget: "string" }
       - { label: "Social Image", name: "socialImage", widget: "image" }
       - { label: "Draft", name: "draft", widget: "boolean", default: true }
+      - {
+          label: "IsProject",
+          name: "isProject",
+          widget: "boolean",
+          default: false,
+        }
       - { label: "Body", name: "body", widget: "markdown" }
