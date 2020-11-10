@@ -3,9 +3,26 @@ title: "About me"
 template: "page"
 socialImage: ""
 ---
+Graduated with a B.S in Electronic Engineering from UNEXPO university I've been working as a FullStack Web Developer in different capacities for a couple of years now. Currently, my focus on the technical side is on the Javascript Ecosystem with React, Typescript, and Node as my favorite tools, together with TDD (Jest/Ava) and  CI/CD Practices, Containerization, Non-Relational (MongoDB and Firestore) and relational (PostgreSQL) DBs and some DevOps tasks. 
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+Lately, I've participated in hackathons and projects as a decent (albeit ad hoc) UI/UX designer and as a (less frequently) Product Manager
 
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
+In the past I've worked with: 
+* Webpack.
+* WordPress and Woocomerce
+* ROS (Robotic Operating System) with Python
+* Elixir and Phoenix
+* Kubernetes
+Some other tools in my arsenal are: 
+* MaterialUI
+* Tailwind
+* Angular
+* SCSS
+* Bootstrap 
 
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+
+I've learned that while having a strong tech stack is vital for any project
+a clear vision of what is going to be built, a healthy dedication to the UI/UX, and honest teamwork is quintessential to create a good product. 
+
+> Most of my side projects start with a pristine Kanban Board, a new slack team, a Figma project
+
